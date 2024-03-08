@@ -1,14 +1,24 @@
 Power Up and Connection: 
+                  
                   When you turn on the car, the NodeMCU board uses WiFi to connect to the Blynk cloud.
+                  
 Blynk App Control:
+                 
                   The Blynk app interface you created has buttons (Forward, Backward, Left, Right) and a slider.
+
 Sending Commands:
+                 
                   Pressing these buttons sends those commands (forward, backward, left, right) to the NodeMCU board via the Blynk cloud.
+
 Motor Control: 
+                 
                  The NodeMCU board interprets these commands and uses the L298N motor driver board to control the gear motors accordingly.
+
 Speed Adjustment:
+                 
                  The slider in the Blynk app allows you to control the speed of the motors.
                  
+
 List of the components
 
 NodeMCU ESP8266:
