@@ -1,4 +1,5 @@
 //program code for wifi control car.....
+// Yashmika senadheera
 
 #define BLYNK_PRINT Serial
 #define BLYNK_TEMPLATE_ID "TMPL6M2rCfB2o"
@@ -21,8 +22,8 @@ bool right = 0;
 int Speed;
 
 char auth[] = "60jX_nBGURHnsA2iekPrHHySdSwg4HGz"; //Enter your Blynk application auth token
-char ssid[] = "PROLINK_H5004NK_6E84A"; //Enter your WIFI name
-char pass[] = "vr2256616"; //Enter your WIFI passowrd
+char ssid[] = "******Your wifi SSID********"; //Enter your WIFI name
+char pass[] = "******Your wifi pasword*****"; //Enter your WIFI passowrd
 
 
 void setup() {
